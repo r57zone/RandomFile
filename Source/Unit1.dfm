@@ -4,7 +4,7 @@ object Main: TMain
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = #1057#1083#1091#1095#1072#1081#1085#1099#1081' '#1092#1072#1081#1083
-  ClientHeight = 201
+  ClientHeight = 192
   ClientWidth = 248
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -20,14 +20,14 @@ object Main: TMain
   TextHeight = 13
   object FolderPathLbl: TLabel
     Left = 8
-    Top = 96
+    Top = 90
     Width = 75
     Height = 13
     Caption = #1055#1091#1090#1100' '#1076#1086' '#1087#1072#1087#1082#1080':'
   end
   object AboutLbl: TLabel
     Left = 231
-    Top = 178
+    Top = 170
     Width = 6
     Height = 13
     Alignment = taCenter
@@ -64,7 +64,7 @@ object Main: TMain
   end
   object PathEdt: TEdit
     Left = 8
-    Top = 112
+    Top = 106
     Width = 233
     Height = 21
     ReadOnly = True
@@ -72,7 +72,7 @@ object Main: TMain
   end
   object SelectFolderBtn: TButton
     Left = 7
-    Top = 144
+    Top = 136
     Width = 75
     Height = 25
     Caption = #1042#1099#1073#1088#1072#1090#1100
@@ -81,7 +81,7 @@ object Main: TMain
   end
   object SetPathBtn: TButton
     Left = 87
-    Top = 144
+    Top = 136
     Width = 75
     Height = 25
     Caption = #1055#1086' '#1091#1084#1086#1083#1095'.'
@@ -92,7 +92,7 @@ object Main: TMain
   end
   object SaveHistoryCB: TCheckBox
     Left = 8
-    Top = 176
+    Top = 168
     Width = 217
     Height = 17
     Caption = #1048#1089#1082#1083#1102#1095#1080#1090#1100' '#1088#1072#1085#1077#1077' '#1087#1086#1082#1072#1079#1072#1085#1085#1099#1077' '#1092#1072#1081#1083#1099
@@ -111,7 +111,7 @@ object Main: TMain
   end
   object ExcludeExtBtn: TButton
     Left = 167
-    Top = 144
+    Top = 136
     Width = 75
     Height = 25
     Hint = #1048#1089#1082#1083#1102#1095#1080#1090#1100' '#1088#1072#1089#1096#1080#1088#1077#1085#1080#1103

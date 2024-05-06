@@ -156,7 +156,7 @@ begin
   RandomFiles:=TStringList.Create;
   ShowedFiles:=TStringList.Create;
   Randomize;
-  //RandomFile;
+  RandomFile;
 end;
 
 procedure TMain.FormClose(Sender: TObject; var Action: TCloseAction);
