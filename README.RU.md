@@ -2,10 +2,10 @@
 [![RU](https://user-images.githubusercontent.com/9499881/27683795-5b0fbac6-5cd8-11e7-929c-057833e01fb1.png)](https://github.com/r57zone/RandomFile/blob/master/README.RU.md) 
 
 # Random File
-Приложение для показа случайного файла из папки. Можно сохранять уже показанные файлы и не выводить их снова. Изменить настройки можно в конфигурационном файле "Config.ini".
+Приложение для показа случайного файла из папки. Можно исключить ранее показанные файлы.
 
 ## Скриншоты
-![](https://user-images.githubusercontent.com/9499881/42882291-ce59b7b6-8aa9-11e8-957b-820340efb90a.png)
+![](https://github.com/r57zone/RandomFile/assets/9499881/3dd1b3c1-6ab3-45f6-9fed-3d7f070f64bd)
 
 ## Загрузка
 >Версия для Windows XP, 7, 8.1, 10, 11.<br>

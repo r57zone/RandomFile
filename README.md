@@ -3,10 +3,10 @@
 ← Choose language | Выберите язык
 
 # Random File
-Application to show a random file from folder. You can save already displayed files and not show them again. You can change the settings in the configuration file "Config.ini".
+Application to show a random file from folder. You can exclude previously shown files.
 
 ## Screenshots
-![](https://user-images.githubusercontent.com/9499881/42882317-d6692a90-8aa9-11e8-83f1-e474a3a884dd.png)
+![](https://github.com/r57zone/RandomFile/assets/9499881/99ddd7fa-766c-4081-bd4f-2656d8619470)
 
 ## Download
 >Version for Windows XP, 7, 8.1, 10, 11.<br>
