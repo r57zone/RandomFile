@@ -123,7 +123,8 @@ var
   Ini: TIniFile;
 begin
   Ini:=TIniFile.Create(ExtractFilePath(ParamStr(0)) + 'Config.ini');
-  PathEdt.Text:=Ini.ReadString('Main', 'Path', GetEnvironmentVariable('USERPROFILE') + '\Desktop\');
+  PathEdt.Text:=Ini.ReadString('Main', 'Path', '');
+  if PathEdt.Text = '' then PathEdt.Text:=GetEnvironmentVariable('USERPROFILE') + '\Desktop\';
   SaveHistoryCB.Checked:=Ini.ReadBool('Main', 'FilesHistory', false);
   ExcludeExts:=Ini.ReadString('Main', 'ExcludeExts', '.pas');
   Ini.Free;
