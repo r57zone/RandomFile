@@ -96,7 +96,7 @@ object Main: TMain
     Width = 217
     Height = 17
     Caption = #1048#1089#1082#1083#1102#1095#1080#1090#1100' '#1088#1072#1085#1077#1077' '#1087#1086#1082#1072#1079#1072#1085#1085#1099#1077' '#1092#1072#1081#1083#1099
-    TabOrder = 6
+    TabOrder = 7
     OnClick = SaveHistoryCBClick
   end
   object FileNamePanel: TPanel
@@ -107,7 +107,7 @@ object Main: TMain
     Caption = #1057#1083#1091#1095#1072#1081#1085#1099#1081' '#1092#1072#1081#1083
     ParentShowHint = False
     ShowHint = True
-    TabOrder = 7
+    TabOrder = 8
   end
   object ExcludeExtBtn: TButton
     Left = 167
@@ -118,7 +118,7 @@ object Main: TMain
     Caption = #1048#1089#1082#1083'. '#1088#1072#1089#1096'.'
     ParentShowHint = False
     ShowHint = True
-    TabOrder = 8
+    TabOrder = 6
     OnClick = ExcludeExtBtnClick
   end
   object XPManifest: TXPManifest
